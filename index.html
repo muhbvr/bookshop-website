@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TheBookShop</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- top nav -->
+    <div class="topnav" id="myTopnav">
+
+        <a href="index.html" class="active">Home</a>
+
+        <div class="shop-title">
+            TheBookShop
+        </div>
+
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+
+        <!-- mobile menu button -->
+        <a href="javascript:void(0);" class="icon" onclick="nav()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+    </div>
+
+
+    <main class="container">
+
+        <h1>Featured Books</h1>
+
+        <p class="subtitle">
+            Pick a book and continue to checkout
+        </p>
+
+
+        <div class="books-grid">
+
+            <!-- dune -->
+            <div class="book-card"
+                data-id="1"
+                data-title="Dune"
+                data-price="22.99">
+
+                <div class="book-image">
+                    <img src="images/dune.jpg" alt="Dune book cover">
+                </div>
+
+                <div class="book-info">
+
+                    <h3>Dune</h3>
+
+                    <p class="author">
+                        Frank Herbert
+                    </p>
+
+                    <p class="price">
+                        £22.99
+                    </p>
+
+                    <p class="description">
+                        A sci-fi classic set on the desert planet Arrakis,
+                        where politics, power and survival all collide.
+                    </p>
+
+                    <button
+                        class="btn-pay"
+                        data-id="1"
+                        data-title="Dune"
+                        data-price="22.99">
+
+                        Pay Now
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- game of thrones -->
+            <div class="book-card"
+                data-id="2"
+                data-title="Game of Thrones"
+                data-price="24.99">
+
+                <div class="book-image">
+                    <img src="images/got.jpg" alt="Game of Thrones cover">
+                </div>
+
+                <div class="book-info">
+
+                    <h3>Game of Thrones</h3>
+
+                    <p class="author">
+                        George R.R. Martin
+                    </p>
+
+                    <p class="price">
+                        £24.99
+                    </p>
+
+                    <p class="description">
+                        Noble houses battle for the Iron Throne while
+                        danger slowly rises beyond the Wall.
+                    </p>
+
+                    <button
+                        class="btn-pay"
+                        data-id="2"
+                        data-title="Game of Thrones"
+                        data-price="24.99">
+
+                        Pay Now
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- house of the dragon -->
+            <div class="book-card"
+                data-id="3"
+                data-title="House of the Dragon"
+                data-price="29.99">
+
+                <div class="book-image">
+                    <img src="images/hotd.jpg" alt="House of the Dragon cover">
+                </div>
+
+                <div class="book-info">
+
+                    <h3>House of the Dragon</h3>
+
+                    <p class="author">
+                        George R.R. Martin
+                    </p>
+
+                    <p class="price">
+                        £29.99
+                    </p>
+
+                    <p class="description">
+                        The story of the Targaryen civil war and the chaos
+                        that followed when dragons fought dragons.
+                    </p>
+
+                    <button
+                        class="btn-pay"
+                        data-id="3"
+                        data-title="House of the Dragon"
+                        data-price="29.99">
+
+                        Pay Now
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- walking dead -->
+            <div class="book-card"
+                data-id="4"
+                data-title="The Walking Dead"
+                data-price="19.99">
+
+                <div class="book-image">
+                    <img src="images/twd.jpg" alt="The Walking Dead cover">
+                </div>
+
+                <div class="book-info">
+
+                    <h3>The Walking Dead</h3>
+
+                    <p class="author">
+                        Robert Kirkman
+                    </p>
+
+                    <p class="price">
+                        £19.99
+                    </p>
+
+                    <p class="description">
+                        Rick Grimes and a group of survivors try to stay alive
+                        in a brutal zombie apocalypse.
+                    </p>
+
+                    <button
+                        class="btn-pay"
+                        data-id="4"
+                        data-title="The Walking Dead"
+                        data-price="19.99">
+
+                        Pay Now
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- shopping cart -->
+        <div class="multi-buy-section">
+
+            <h2>Shopping Cart</h2>
+
+            <div id="cartItems" class="cart-items">
+                No books selected
+            </div>
+
+            <div id="cartTotal" class="cart-total">
+                Total: £0.00
+            </div>
+
+            <button
+                id="checkoutBtn"
+                class="btn-checkout"
+                disabled>
+
+                Proceed to Checkout
+
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>
+            2026 TheBookShop — Your Gateway to Great Reads
+        </p>
+    </footer>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
