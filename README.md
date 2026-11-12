@@ -58,5 +58,3 @@ Some features I would like to implement in the future include:
 **Development:** Individual Project
 
 **Technologies:** HTML, CSS, JavaScript
-
-*This project is a demonstration website and does not process real payments.*
