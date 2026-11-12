@@ -34,3 +34,29 @@ The website allows users to browse a selection of books, add items to a shopping
 
 Developing this project helped me improve my understanding of:
 
+- Structuring web pages using HTML.
+- Creating responsive layouts using CSS.
+- Using JavaScript functions and event listeners.
+- Managing shopping cart data using session storage.
+- Implementing form validation and handling user input.
+- Organising a web development project into separate files and folders.
+
+## Future Improvements
+
+Some features I would like to implement in the future include:
+
+- Adding a search bar to filter books.
+- Creating user accounts and login functionality.
+- Connecting the website to a backend database.
+- Improving accessibility and mobile responsiveness.
+- Integrating a secure payment provider for real transactions.
+
+## Project Information
+
+**Project Type:** University Web Development Coursework
+
+**Development:** Individual Project
+
+**Technologies:** HTML, CSS, JavaScript
+
+*This project is a demonstration website and does not process real payments.*
